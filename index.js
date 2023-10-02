@@ -5,12 +5,12 @@ const customer = require('./routes/customer');
 const movies = require('./routes/movies');
 const rentals = require('./routes/rentals');
 const user = require('./routes/user');
-const auth = require('./middleware/auth');
+const auth = require('./routes/auth');
 const express = require ('express');
 const app = express();
 
 if (!config.get('jwtPrivateKey')){
-    console.error('FATA ERROR: jwtPrivateKey is not defined.');
+    console.error('FATAL ERROR: jwtPrivateKey is not defined.');
     process.exit(1);
 }
 
