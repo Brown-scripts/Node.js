@@ -1,2 +1,10 @@
-{"level":"error","message":"Could not get the genre.","metadata":{"prop":{}}}
-{"level":"error","message":"Could not get the genre.","metadata":{"prop":{}}}
+{"level":"info","message":"listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
