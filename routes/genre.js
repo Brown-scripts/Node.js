@@ -5,7 +5,6 @@ const express  = require('express');
 const router  = express.Router();
 
 router.get('/',async(req,res,next)=>{
-    return next(new Error('Could not get the genre.'));  
     const genre = await Genre.find().sort('name');
     res.send(genre);
 });
